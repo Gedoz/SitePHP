@@ -1,0 +1,48 @@
+/*.carousel-home{
+	position: absolute;
+	top: -11.4vh;
+}
+*/
+.carousel-home img{
+	width: 100%;
+	height: 85vh;
+}
+
+.sobre-home{
+	padding: 6vh 10vh 10vh 6vh;
+}
+
+.sobre-home h3{
+	text-align: center;
+	border-bottom: 1px solid #333;
+	line-height: 4vh;
+}
+
+.sobre-home p{
+	padding: 3vh;
+}
+
+#map{
+	width:100%;
+	height:400px;
+}
+
+.footer{
+	padding: 2vh;
+	background: #333;
+	color: #fff;
+	height: 20vh;
+}
+
+.footer img{
+	height: 3.5vh;
+}
+.footer .row .col span{
+	font-size: larger;
+    font-weight: 600;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+/*.footer .row .col p{
+	text-align: left;
+}*/

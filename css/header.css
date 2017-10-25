@@ -1,0 +1,96 @@
+@media (min-width: 700px) {
+	.header-barraBusca-visivel {
+    	transform: translateY(92px);
+    }
+}
+
+.header-barraBusca{
+	display: block;
+    height: 94px;
+    position: absolute;
+    top: -92px;
+    background-color: #333;
+    color: #FFF;
+    width: 100%;
+}
+
+.header-busca{
+	position: absolute;
+    background-color: transparent;
+    right: 0;
+    border: 2px solid #333;
+    border-radius: 0 0 5px 5px;
+    width: 40px;
+    height: 34px;
+    top: 0px;
+}
+
+.header-busca svg{
+	position: absolute;
+    left: 9px;
+    top: 7px;
+ }
+.header-busca svg path{
+	fill: #333;
+}
+
+.header-busca:hover{
+	background: #333;
+	cursor: pointer;
+	transition: background .5s;
+}.header-busca:hover svg path{
+	fill: #fff;
+	transition: .5s;
+}
+
+.barraDePesquisa{
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #FFF;
+    width: 100%;
+    height: 46px;
+}
+
+.barraDePesquisa label {
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    width: 17%;
+}
+
+.barraDePesquisa input{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 67%;
+    font-size: 1em;
+    box-shadow: none;
+    border: none;
+    padding: 1.7vh;
+    height: 100%;
+  }
+
+.barraDePesquisa button{
+	width: 15%;
+    height: 5.8vh;
+    color: #333;
+    font-weight: 500;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    background-color: #FFF;
+    border: none;
+    box-shadow: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    margin-left: 2px;
+    height: 100%;
+}
+
+nav{
+	align-items: flex-end;
+}
+
+nav a img{
+	height: 10vh;
+}
